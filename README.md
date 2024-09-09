@@ -7,10 +7,6 @@ It contains swedish characters and swedish symbol codes
 
 ![image](docs/export/brain.png)
 
-## Sweep/Urchin layout
-
-![image](docs/export/sweep.png)
-
 ## Symbol mnemonic/reminders
 | Symbol | Name                         |  Letter   | Mnemonic           |
 | :----: | ---------------------------- | :-------: | ------------------ |
