@@ -82,4 +82,4 @@
 #define SE_GT    LS(SE_LT)   // >
 #define SE_BSLH  RA(SE_PLUS) // (backslash)
 #define SE_PIPE  RA(SE_LT)   // |
-
+#define SE_COLON LS(DOT)     // :
