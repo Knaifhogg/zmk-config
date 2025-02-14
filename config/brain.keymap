@@ -12,11 +12,10 @@
 #include "swe_keys.h"
 
 #define DEFAULT     0
-#define GAMING      1
-#define SYMBOLS_SWE 2
-#define FUNC        3
-#define NUMBER      4
-#define SETTINGS    5
+#define SYMBOLS_SWE 1
+#define FUNC        2
+#define NUMBER      3
+#define SETTINGS    4
 
 / {
     behaviors {
