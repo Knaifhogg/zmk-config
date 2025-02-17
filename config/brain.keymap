@@ -65,7 +65,7 @@
 
         default_layer {
             bindings = <
-                         &kp Q       &kp W       &kp E         &kp R           &kp T                        &kp Y                 &hm RCTRL U  &hm RSHIFT I &hm RALT O &hs RGUI P
+                         &kp Q       &kp W       &kp E         &kp R           &kp T                        &kp Y                 &hm RCTRL U  &hm RSHIFT I &hm LALT O &hs RGUI P
            &kp SE_MINUS &hs LGUI A &hm LALT S  &hm LSHIFT D    &hm LCTRL F     &kp G                        &kp H                 &kp J        &kp K        &kp L      &kp SE_AA  &kp SE_AE
             &kp SE_UNDER &kp Z       &kp X       &kp C         &kp V           &kp B                        &kp N                 &kp M        &kp COMMA    &kp DOT    &kp SE_OO  &kp SE_FSLH
                                                               &lt NUMBER TAB  &kp SPACE  &kp LSHIFT &bspdel &lt SYMBOLS_SWE ENTER  &lt FUNC ESC
@@ -74,7 +74,7 @@
 
         symbols_swe_layer {
             bindings = <
-                   &kp SE_DQT       &kp SE_AT         &kp SE_EXCL         &kp SE_PLUS         &kp SE_MINUS                  &kp SE_LPAR   &hm RCTRL SE_RPAR &hm RSHIFT  SE_UNDER &hm RALT SE_QMARK  &kp RGUI 
+                   &kp SE_DQT       &kp SE_AT         &kp SE_EXCL         &kp SE_PLUS         &kp SE_MINUS                  &kp SE_LPAR   &hm RCTRL SE_RPAR &hm RSHIFT  SE_UNDER &hm LALT SE_QMARK  &kp RGUI 
             &none  &hs LGUI SE_SQT  &hm LALT SE_AMPS  &hm LSHIFT SE_STAR  &hm LCTRL SE_GRAVE  &kp SE_TILDE                  &kp SE_LBKT   &kp SE_RBKT       &kp SE_EQUAL         &kp SE_PIPE        &none        &none
             &none  &kp SE_PRCNT     &kp SE_HASH       &kp SE_CARET        &kp SE_DLLR         &kp SE_EQUAL                  &kp SE_LBRC   &kp SE_RBRC       &kp SE_LT            &kp SE_GT          &kp SE_BSLH  &kp SE_FSLH
                                                                           &none               &kp SPACE    &trans   &trans  &trans        &none
@@ -93,7 +93,7 @@
         number_layer {
             bindings = <
                    &kp N1       &kp N2      &kp N3         &kp N4        &kp N5                         &kp N6        &kp N7        &kp N8         &kp N9       &kp N0
-            &none  &hs LGUI  N6 &hm LALT N7 &hm LSHIFT N8  &hm LCTRL N9  &kp N0                         &kp SE_MINUS  &kp RCTRL     &kp RSHIFT     &kp RALT     &kp RGUI        &none
+            &none  &hs LGUI  N6 &hm LALT N7 &hm LSHIFT N8  &hm LCTRL N9  &kp N0                         &kp SE_MINUS  &kp RCTRL     &kp RSHIFT     &kp LALT     &kp RGUI        &none
             &none  &none        &none       &none          &none         &kp SE_EQUAL                   &kp SE_PLUS   &none         &trans         &trans       &kp SE_COLON    &kp SE_FSLH
                                                            &none         &trans        &trans   &trans  &none         &kp SPACE
             >;
